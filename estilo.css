@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    z-index: 1;
+    background: #03829e;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.cabecalho h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: -10px 0 0 -300px;
+    padding-right: 60px;
+    cursor: default;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 42px;
+    margin: 20px 0 0 260px;
+}
+
+.cabecalho-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.principal-inicio {
+    background: url(ti.jpg);
+}
